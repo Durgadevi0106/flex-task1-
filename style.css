@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.flex-container{
+    font-size: 2rem;
+    border: 2px solid; 
+    display: flex;  
+}
+.flex-child1{
+    background-color: aqua;
+    flex-grow: 1;
+
+}
+.flex-child2{
+    background-color: lightgreen;
+    flex-grow: 2;
+}
+.flex-child3{
+    background-color: lightpink;
+    flex-grow: 0;
+}
